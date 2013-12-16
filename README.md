@@ -17,6 +17,8 @@ Below are the acceptable options that imageReveal currently accepts:
 *title - the title of the overlay (imageReveal will override this in favor of the title attribute)
 *content - this body content of the overlay (imageReveal will override this in favor of the data-content attribute)
 
+\* the height and width properties default to the value of "auto".  When using "auto", imageReveal will get the height and width from the img it is applied to
+
 ######Example Usage:
 HTML:
 `<img src="http://placekitten.com/200/200" title="A kitten" data-content="This text will be displayed to the user on hover" />`
@@ -24,3 +26,4 @@ HTML:
 JS:
 `$("img").imageReveal();`
 
+####[Demo](http://jsfiddle.net/JThomas/N23z6/)
