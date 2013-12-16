@@ -1,0 +1,38 @@
+.ui-imageReveal-widget {
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+.ui-imageReveal-widget:before {
+    content: '?';
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-weight: bold;
+}
+.ui-imageReveal-widget:hover:before {
+    display: none;
+}
+.ui-imageReveal-overlay {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.ui-imageReveal-title {
+    font-size: inherit;
+    padding: 5px 0;
+    margin: 5px 0;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+.ui-imageReveal-content {
+    font-size: inherit;
+    color: #fff;
+    padding-top: 10px;
+}
