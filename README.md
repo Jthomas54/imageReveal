@@ -10,14 +10,14 @@ imageReveal looks at the `title` attribute when populating the title of the over
 
 
 Below are the acceptable options that imageReveal currently accepts:
-*height - this sets the height & max-height of the widget\*
-*width - this sets the width & max-width of the widget\*
-*opacity - the opacity to set the image to when then overlay is being revealed
-*duration - the duration the animation should take to complete
-*title - the title of the overlay (imageReveal will override this in favor of the title attribute)
-*content - this body content of the overlay (imageReveal will override this in favor of the data-content attribute)
++ *height* - this sets the height & max-height of the widget\*
++ *width* - this sets the width & max-width of the widget\*
++ *opacity* - the opacity to set the image to when then overlay is being revealed
++ *duration* - the duration the animation should take to complete
++ *title* - the title of the overlay (imageReveal will override this in favor of the title attribute)
++ *content* - this body content of the overlay (imageReveal will override this in favor of the data-content attribute)
 
-\* the height and width properties default to the value of "auto".  When using "auto", imageReveal will get the height and width from the img it is applied to
+\*Note: the height and width properties default to the value of "auto".  When using "auto", imageReveal will get the height and width from the img it is applied to
 
 ######Example Usage:
 HTML:
